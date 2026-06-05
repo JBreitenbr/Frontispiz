@@ -12,7 +12,7 @@ let artists=["Al Di Meola","Allman Brothers Band","Archie Shepp","Kajagoogoo","N
 "Bill Frisell","Bob Dylan","Anouar Brahem","Buffalo Springfield","Camel","CAN","Chick Corea","Climax Blues Band","Claude Debussy","Elliot Smith","Eric Clapton","Embryo","Eric Dolphy","Fleetwood Mac","Focus","Franco Battiato","Free","Frank Zappa","Genesis","Golden Earring","Grateful Dead","Grobschnitt","Hank Mobley","Herbie Hancock","Horace Silver","Howlin' Wolf","Igor Stravinsky","Il Balletto di Bronzo","Jack DeJohnette","Jackson Browne","Cream","Creedence Clearwater Revival","Deep Purple","Curved Air","Crosby, Stills, Nash & Young","Dream Theater","Duke Ellington","J.J.Cale","Gianna Nannini","Jethro Tull","Jimi Hendrix","Jimmy Smith","John Coltrane","John Lennon","John Mayall","Judas Priest","King Crimson","Koenjihyakkei","Kraan","La coscienza di Zeno","Le Orme","Led Zeppelin","Leo Kottke","Lee Morgan","Leon Russell","Lucio Battisti","Magma","Mahavishnu Orchestra","Maurice Ravel","Myrath"
 ];
 
-let arr=[];
+let arr=["Kajagoogoo","Yes","Franco Battiato","Van Der Graaf Generator","Premiata Forneria Marconi","King Crimson","The Dandy Warhols","Depeche Mode","New Order","Banco Del Mutuo Soccorso"];
 for(let i=0;i<30;i++){
   let rnd=Math.floor(Math.random()*artists.length);
 if(!arr.includes(artists[rnd])){arr.push(artists[rnd]);}
