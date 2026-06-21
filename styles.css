@@ -37,8 +37,41 @@ h2 {
   color:#CBD5E1;
  }
 canvas {
-  /*transform: scale(0.7);*/
   margin-top: 20px;
   width: 90vw;
   border: 2vw solid #CBD5E1;
+}
+@media (min-width: 768px) {
+  nav {
+    font-size: 1.25rem;
+  }
+  
+  .page {
+    padding: 1.7rem 1.3rem 2rem;
+  }
+}
+
+@media (min-width: 992px) {
+  nav {
+    height: 130px;
+    font-size:1.3rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .city-text {
+    font-size:1.1rem;
+  }
+  
+  .time-label, .time-pure, .time-location {
+     font-size:1.12rem;
+  }
+  
+  .time-text {
+    font-size: 0.94rem;
+  }
+  
+  .page-header .label {
+     font-size: 1.6rem;
+    }
 }
