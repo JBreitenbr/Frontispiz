@@ -40,7 +40,7 @@ h2 {
   color:#CBD5E1;
  }
 canvas {
-  margin-top: 20px;
+  margin-top: 8vh;
   width: 90vw;
   height: 420px;
   border: 2vw solid #CBD5E1;
@@ -50,8 +50,8 @@ canvas {
    border: 5vw solid orange;
   }
   
-  .page {
-    padding: 1.7rem 1.3rem 2rem;
+  li {
+    font-size: 18px;
   }
 }
 
