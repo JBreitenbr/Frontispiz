@@ -13,7 +13,7 @@ body {
 nav {
   background-color:#CBD5E1;
   display: flex;
-  height: 120px;
+  height: 160px;
  }
 .logo {
 width: 167.5px;
@@ -26,6 +26,7 @@ background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 167.5 167.5' xmlns
 
 li {list-style: none;
   padding: 2px;
+  font-size: 16px;
  }
 .wrapper {
 display: flex;
@@ -45,7 +46,7 @@ canvas {
 }
 @media (min-width: 768px) {
  canvas {
-   fborder: 5vw solid orange;
+   border: 5vw solid orange;
   }
   
   .page {
