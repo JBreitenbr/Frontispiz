@@ -47,9 +47,11 @@ canvas {
 }
 @media (min-width: 768px) {
  canvas {
-   border: 5vw solid orange;
+   border: 5vw solid lime;
   }
-  
+.logo {
+    transform: scale(0.8);
+}
   li {
     font-size: 18px;
   }
