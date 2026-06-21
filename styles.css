@@ -13,7 +13,7 @@ body {
 nav {
   background-color:#CBD5E1;
   display: flex;
-  height: 190px;
+  height: 202px;
  }
 .logo {
 width: 167.5px;
@@ -40,7 +40,7 @@ h2 {
   color:#CBD5E1;
  }
 canvas {
-  margin-top: 8vh;
+  margin-top: 12vh;
   width: 90vw;
   height: 420px;
   border: 2vw solid #CBD5E1;
