@@ -39,11 +39,12 @@ h2 {
 canvas {
   margin-top: 20px;
   width: 90vw;
+  height: 420px;
   border: 2vw solid #CBD5E1;
 }
 @media (min-width: 768px) {
-  nav {
-    font-size: 1.25rem;
+ canvas {
+   fborder: 5vw solid orange;
   }
   
   .page {
