@@ -16,11 +16,11 @@ let arr2=arr.map((item)=>[item,15]);
     list: arr2,
     gridSize: Math.round(16 * $('#my-word-cloud').width() / 1024),       // Size of the grid in pixels
     weightFactor: 
-    Math.pow(1.8, 2.3) * $('#my-word-cloud').width() / 1024
+    Math.pow(1.6, 2.3) * $('#my-word-cloud').width() / 1024
   ,    // Muliplier for word sizes
     fontFamily: 'Arial, sans-serif',
     color: 'random-dark', // Color scheme
     backgroundColor: '#f4f4f4',
-    rotateRatio: 0.6,   // Probability a word will rotate (0 to 1)
+    rotateRatio: 0.55,   // Probability a word will rotate (0 to 1)
     rotationSteps: 2,
   });
