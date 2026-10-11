@@ -45,8 +45,8 @@ background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 167.5 167.5' xmlns
 #my-word-cloud{
   /*transform: scale(0.7);*/
   margin-top: 20px;
-  width: 360px;
-  height: 420px;
+/* width: 360px;
+  height: 420px; */
   border: 2vw solid #CBD5E1;
 }
 @media (min-width: 768px) {
