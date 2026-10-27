@@ -21,6 +21,6 @@ let arr2=arr.map((item)=>[item,15]);
     fontFamily: 'Arial, sans-serif',
     color: 'random-dark', // Color scheme
     backgroundColor: '#f4f4f4',
-    rotateRatio: 0.05,   // Probability a word will rotate (0 to 1)
+    rotateRatio: 0.25,   // Probability a word will rotate (0 to 1)
     rotationSteps: 2,
   });
