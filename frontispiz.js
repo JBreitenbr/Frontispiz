@@ -8,16 +8,14 @@ for(let i=0;i<36;i++){
 if(!arr.includes(artists[rnd])){arr.push(artists[rnd]);}
 }
 let arr2=arr.map((item)=>[item,15]);
-  // Target the canvas element
-  const canvas = document.getElementById('my-word-cloud');
+const canvas = document.getElementById('my-word-cloud');
 
   // Render the word cloud
   WordCloud(canvas, {
     list: arr2,
     gridSize: Math.round(16 * $('#my-word-cloud').width() / 1024),       // Size of the grid in pixels
     weightFactor: 
-    Math.pow(1.6, 2.3) * $('#my-word-cloud').width() / 1024
-  ,    // Muliplier for word sizes
+    Math.pow(1.6, 2.3) * $('#my-word-cloud').width() / 1024,
     fontFamily: 'Arial, sans-serif',
     color: 'random-dark', // Color scheme
     backgroundColor: '#f4f4f4',
